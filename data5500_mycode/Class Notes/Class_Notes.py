@@ -7,7 +7,8 @@
 
     # Encapsulation:
     #     -The ability to protect/encapsulate data. You control how and when the data is updated. 
-    #     -"__"before a variable will make it hidden. You can only update hidden data in a function that you create. 
+    #     -"__"double underscore before a variable will make it hidden. You can only update hidden data in a function that you create, requires a 'Getter' and a 'Setter'.
+    #     -"__[function]__" double underscore on both sides will make a function hidden.
 
     # Practice: (Define class + make a variable hidden)
     class Person:

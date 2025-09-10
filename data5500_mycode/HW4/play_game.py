@@ -24,7 +24,7 @@ def is_bust(total):
         bust = True
     return bust
 
-#We can call on this function to more easily print/format the cards. (CHATGPT)
+#We can call on this function to more easily print/format the cards.
 def card_string(card):
     """Return 'Face of Suit' for display (without value)."""
     return f"{card.face} of {card.suit}"
@@ -67,25 +67,44 @@ def main():
 
     #User Gameplay (hit or not)
     #See if player busted
-    busted = is_bust(player_total)
-    while not busted:
+    player_busted = is_bust(player_total)
+    while not player_busted:
             hit = input("\nWould you like to hit? (y/n) ").lower()
             if hit == 'y':
                 player_hand.append(deck.get_card())
                 player_total = score_hand(player_hand)
                 print(f"Card number {len(player_hand)} is: {card_string(player_hand[-1])}")
                 print(f"Your total score is: {player_total}")
-                busted = is_bust(player_total) #Updates and sees if you bust after each hit
-                if busted == True:
+                player_busted = is_bust(player_total) #Updates and sees if you bust after each hit
+                if player_busted == True:
                     print("You busted, you lose!")
                     break
             elif hit == 'n':
                 break
             else:
                 print("Please enter a valid input: (y/n) ")
+    
+    #Dealers gameplay
+    print(f"\nDealer card number 1: {dealer_hand[0]}")
+    print(f"Dealer card number 2: {dealer_hand[1]}")
+
+    dealer_total = score_hand(dealer_hand)
+    print(f"The dealer's total score is: {dealer_total}")
+
+    # The dealer will hit if their hand total is less than 17. This loop will deal a card, append it to their hand, and compute the score.
+    while dealer_total < 17:
+        dealer_hand.append(deck.getcard())
+        print(f"Dealer hits, Card number {len(dealer_hand)} is: {card_string(dealer_hand[-1])}")
+        dealer_total = score_hand(dealers_hand)
+        print(f"Your total score is: {dealer_total}")
+    
+    #Decide Winner
+    dealer_busted = is_bust(dealers_hand)
+
+    ###You need to decide the winner
+
 
 
 main()
 
-##### YOU JUST FINISHED THE HIT LOOP LOGIC. NOW YOU NEED TO DO THE DEALER REVEAL AND DEALER TURN. ####
 

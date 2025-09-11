@@ -1,4 +1,5 @@
 # Ethan Westenskow
+# ChatGPT Conversation: https://chatgpt.com/share/68c2f44d-5578-800b-b007-6c9701159666
 
 from DeckOfCards import *
 
@@ -120,8 +121,6 @@ def main():
 
         if play_again == 'n':
             print("\nThanks for playing!")
-
-
 
 
 main()

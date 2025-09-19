@@ -1,5 +1,8 @@
 # Ethan Westenskow
 
+#Import any needed library
+import cloudscraper 
+
 #read in the state list and turn it into a list.
 def state_list():  
     with open("data5500_mycode/HW5/states_territories.txt", "r") as file:
@@ -7,35 +10,26 @@ def state_list():
     state_codes = [line.strip() for line in lines]
     return state_codes
 
+#This stores all of the data from each state in one big dictionary
+def every_state_data():
+    all_state_data = {}
+    for state in state_list():
+        #API pull:
+        scraper = cloudscraper.create_scraper() #Less efficient if teh scraper is inside the loop, but it organizes it better.
+        url = "https://api.covidtracking.com/v1/states/" + state + "/daily.json"
+        response = scraper.get(url)
+        data = response.json()
+        all_state_data[state] = data #Adds each state's data to the overseeing all_state_data dictionary. 
+    return all_state_data
+all_state_data = every_state_data() #with this variable, we can call on our data that our every_state_data() gives us. 
+
+#Calculations + Calculation output for each state
+def calculations(): 
+    #1. Average new daily confirmed cases (per state)
 
 
 
 
-
-
-#### I've got the state list read in, it's ready for me to pull from the api and use a for loop to pull data for each state. 
-
-
-
-# import requests
-# import json
-
-# # example url to query datamuse web json api
-# example_url = "https://api.datamuse.com/words?ml=duck"
-
-# # variables to query 
-# word = 'duck'
-# key_word = "word"
-# key_score = "score"
-# search_word = "mallard"
-
-# #generate url
-# url = 'https://api.datamuse.com/words?ml=' + word
-# print(url)
-
-# # requests stock data from data muse
-# request = requests.get(url)
-# # print(request.text) # print to double check data from web json api is good
-# dct_full = json.loads(request.text)
-
-
+#########
+##              ADD CALCULATIONS
+#########

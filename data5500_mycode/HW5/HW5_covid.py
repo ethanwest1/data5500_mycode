@@ -1,4 +1,5 @@
 # Ethan Westenskow
+#CHATGPT conversation link: https://chatgpt.com/share/68d1d54c-8df0-800b-b4e8-2fdd552b229a
 
 #Import any needed library
 import cloudscraper 

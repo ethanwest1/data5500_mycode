@@ -97,6 +97,8 @@ plt.savefig(graph_visual_fil)
 
 #############STEPS ABOVE BUT BY ETHAN ################
 #Step 1
+g = nx.DiGraph()
+
 edges = []
 for line in file.readlines():
     line = line.strip()

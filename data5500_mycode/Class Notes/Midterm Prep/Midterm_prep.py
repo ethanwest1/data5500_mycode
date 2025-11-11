@@ -1,3 +1,4 @@
+### TREES
 #Constructor
 class Node:
     def __init__(self,key):
@@ -17,7 +18,7 @@ root.right.right = Node(14)
 #pre-order
 def preorder(root):
     if root is None:
-        print(root.key, end=" ") #base case
+        print(root.key, end=" ") 
         preorder(root.left)
         preorder(root.right)
 
@@ -25,7 +26,7 @@ def preorder(root):
 def inorder(root):
     if root is None:
         inorder(root.left)
-        print(root.key, end=" ") #base case
+        print(root.key, end=" ") 
         inorder(root.right)
 
 #post-order
@@ -33,7 +34,7 @@ def postorder(root):
     if root is None: 
         postorder(root.left)
         postorder(root.right)
-        print(root.key, end=" ") #base case
+        print(root.key, end=" ") 
 
 ### Find Function:
 def findkey(root, searchkey):
@@ -47,3 +48,25 @@ def findkey(root, searchkey):
         return findkey(root.right, searchkey)
     else:
         return str(root.key)+" is found"
+
+
+### Recursion
+#Factorial code
+def factorial(n):
+    if n == 1:
+        return 1
+    else: 
+        return n * factorial(n-1)
+
+### Python Dictionary / JSON
+my_dict = {'fname': 'Ethan', 'lname': 'Westenskow', 'Age': 23}
+# print(my_dict.keys())
+# for key in my_dict.keys():
+#     print(my_dict[key])
+
+#save to json
+# import json
+# with open('student.json', 'w') as f:
+#     json.dump(student, f)
+
+

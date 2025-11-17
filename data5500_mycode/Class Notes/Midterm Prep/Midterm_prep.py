@@ -70,3 +70,10 @@ my_dict = {'fname': 'Ethan', 'lname': 'Westenskow', 'Age': 23}
 #     json.dump(student, f)
 
 
+#bubble sort practice
+lst = [47, 12, 89, 5, 63, 22, 78, 36, 91, 10]
+
+for x in range(len(lst)-1):
+    for i in range(len(lst)-1):
+        if lst[i] > lst[i+1]:
+            lst[i], lst[i+1] = lst[i+1], lst[i]

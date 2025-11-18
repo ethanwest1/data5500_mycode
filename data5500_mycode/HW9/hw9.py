@@ -55,11 +55,25 @@ def build_graph(prices_dict):
 g = build_graph(prices_dict)
 
 
-## LEFT OFF AT GRAPH BEING BUILT. 
-#We've built -fetching the prices -building the graph
 
+#Running through all paths and finding disequilibrium
+#__________________________________________________________________________________________________
+def compute_path_weight(g,path):
+    weight = 1.0
 
+    for i in range(len(path)-1):
+        from_node = path[i]
+        to_node = path[i+1]
 
+        edge_weight = g[from_node][to_node]['weight']
+
+        weight = weight * edge_weight
+    return weight
+
+#test it
+paths = list(nx.all_simple_paths(g, 'btc', 'eth'))
+first_path = paths[0]
+print(compute_path_weight(g,first_path))
 
 
 

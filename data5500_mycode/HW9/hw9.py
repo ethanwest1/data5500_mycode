@@ -5,8 +5,9 @@
 ### DISCLAIMER
 #I'm fully aware that my code doesn't print out any info for the ada coin. We tried to incorporate the reverse path logic into the arbitrage detection logic
 # and you can see that it works with all coins except for ada. That is because ada has a forward path, but for some reason won't return a reverse path. 
-#ChatGPT and I worked to debug this, but we weren't able to figure it out. Rather than stripping my code of the reverse logic just so the output looks
-#nicer, I decided to include the bug rather than throwing away all of the work we put into it. So I hope that you can understand where I'm coming from. 
+#ChatGPT and I worked to debug this, but we weren't able to figure it out. We added code that allows the program to continue when this error is encountered. 
+#Rather than stripping my code of the reverse logic just so the output looks nicer, I decided to include the bug rather than throwing away all of the work 
+#we put into it. So I hope that you can understand where I'm coming from. 
 #This assignment was tricky, but ChatGPT helped walk me through it, and I can confidently say that I understand what is happening and how the program works. 
 
 

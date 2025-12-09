@@ -4,6 +4,10 @@ from datetime import datetime
 import requests
 import json
 import networkx as nx
+from itertools import permutations
+
+import warnings
+warnings.filterwarnings("ignore")
 
 COINGECKO_API_URL = "https://api.coingecko.com/api/v3/simple/price"
 CURRENCIES = {
@@ -24,7 +28,173 @@ CURRENCIES = {
 
 VS_CURRENCY = "usd"         # we fetch everything vs USD
 DATA_DIR = "/home/ubuntu/data5500_mycode/Final Project/data"            # folder for pair files
-RESULTS_FILE = "results.json"  # (we'll use this later for results)
+RESULTS_FILE = "/home/ubuntu/data5500_mycode/Final Project/results.json"
+
+# ---------------- RESULTS FILE HELPERS ----------------
+
+def load_results():
+    """
+    Load all past run results from results.json, or return an empty list
+    if the file doesn't exist or is invalid.
+    """
+    if not os.path.exists(RESULTS_FILE):
+        return []
+    with open(RESULTS_FILE, "r") as f:
+        try:
+            return json.load(f)
+        except json.JSONDecodeError:
+            return []
+
+
+def save_results(all_results):
+    """
+    Save the list of all run results back to results.json, nicely formatted.
+    """
+    with open(RESULTS_FILE, "w") as f:
+        json.dump(all_results, f, indent=2)
+
+# ---------------- ALPACA CONFIG ----------------
+
+ALPACA_BASE_URL = "https://paper-api.alpaca.markets"
+ALPACA_ORDERS_ENDPOINT = f"{ALPACA_BASE_URL}/v2/orders"
+
+# Read keys from environment variables (so they aren't hard-coded)
+ALPACA_API_KEY_ENV = "ALPACA_API_KEY_ID"
+ALPACA_SECRET_KEY_ENV = "ALPACA_API_SECRET_KEY"
+
+# Our tickers that Alpaca can trade as crypto/USD pairs
+ALPACA_SYMBOL_MAP = {
+    "btc": "BTC/USD",
+    "eth": "ETH/USD",
+    "ltc": "LTC/USD",
+    "xrp": "XRP/USD",
+    "bch": "BCH/USD",
+    "sol": "SOL/USD",
+    "dot": "DOT/USD",
+    "link": "LINK/USD",
+    "uni": "UNI/USD",
+    "avax": "AVAX/USD",
+}
+
+# ---------------- ALPACA ORDER HELPERS ----------------
+
+def get_alpaca_credentials():
+    """
+    Read Alpaca credentials from environment variables.
+    If they aren't set, print a warning and skip live trades.
+    """
+    api_key = os.environ.get(ALPACA_API_KEY_ENV)
+    secret_key = os.environ.get(ALPACA_SECRET_KEY_ENV)
+    if not api_key or not secret_key:
+        print("Alpaca API keys not set in environment; skipping live paper trades.")
+        return None, None
+    return api_key, secret_key
+
+
+def submit_alpaca_order(symbol, side="buy", notional=None, qty=None,
+                        order_type="market", time_in_force="gtc"):
+    """
+    Submit a crypto order to Alpaca's PAPER endpoint.
+    Uses notional (USD value) by default, or qty if provided.
+    Returns parsed JSON or an error dict.
+    """
+    api_key, secret_key = get_alpaca_credentials()
+    if api_key is None:
+        # No keys set; skip placing real orders
+        return None
+
+    headers = {
+        "APCA-API-KEY-ID": api_key,
+        "APCA-API-SECRET-KEY": secret_key,
+        "Content-Type": "application/json",
+    }
+
+    body = {
+        "symbol": symbol,
+        "side": side,
+        "type": order_type,
+        "time_in_force": time_in_force,
+    }
+
+    if notional is not None:
+        body["notional"] = str(notional)
+    elif qty is not None:
+        body["qty"] = str(qty)
+    else:
+        raise ValueError("Either notional or qty must be provided")
+
+    try:
+        resp = requests.post(ALPACA_ORDERS_ENDPOINT, headers=headers, json=body, timeout=10)
+        if resp.status_code not in (200, 201):
+            print("Alpaca order failed:", resp.status_code, resp.text)
+            return {
+                "error": True,
+                "status_code": resp.status_code,
+                "body": resp.text,
+                "request": body,
+            }
+        return resp.json()
+    except Exception as e:
+        print("Error submitting Alpaca order:", e)
+        return {
+            "error": True,
+            "exception": str(e),
+            "request": body,
+        }
+
+
+def place_alpaca_trades_from_cycles(interesting_cycles, notional_per_trade=10.0, max_trades=3):
+    """
+    Take 'interesting_cycles' from analyze_arbitrage(g)
+    and place up to max_trades paper orders on Alpaca.
+
+    Simple strategy:
+    - For each cycle, use the FIRST coin in forward_path.
+    - If that coin has a USD pair on Alpaca, buy `notional_per_trade` of it.
+    - Record the orders so we can log them in results.json.
+    """
+    orders = []
+    trade_count = 0
+
+    for cycle_info in interesting_cycles:
+        if trade_count >= max_trades:
+            break
+
+        forward_path = cycle_info["forward_path"]
+        if not forward_path:
+            continue
+
+        first_coin = forward_path[0]  # e.g. "btc"
+        ticker = str(first_coin).lower()
+
+        symbol = ALPACA_SYMBOL_MAP.get(ticker)
+        if not symbol:
+            # This coin isn't tradable on Alpaca in USD
+            continue
+
+        print(f"Placing Alpaca paper trade: BUY {notional_per_trade} USD of {symbol} "
+              f"based on cycle {forward_path} (factor={cycle_info['factor']:.4f})")
+
+        order_resp = submit_alpaca_order(
+            symbol=symbol,
+            side="buy",
+            notional=notional_per_trade,
+            order_type="market",
+            time_in_force="gtc",
+        )
+
+        orders.append({
+            "cycle": forward_path,
+            "factor": cycle_info["factor"],
+            "alpaca_symbol": symbol,
+            "notional_usd": notional_per_trade,
+            "order_response": order_resp,
+        })
+
+        trade_count += 1
+
+    return orders
+
 
 # ---------------- DATA FETCH & PAIR FILE ----------------
 
@@ -163,12 +333,24 @@ def compute_path_weight(g, path):
     return weight
 
 
+
 def analyze_arbitrage(g):
     """
-    Adapted from your original function.
-    Instead of just printing everything, we return a summary dict.
+    Look for arbitrage opportunities using only 3-coin (triangle) cycles.
+    This avoids the explosion from all_simple_paths on a dense 13-node graph.
+
+    For each distinct triple of nodes (a, b, c), we consider all 6 possible
+    directed 3-cycles (permutations). For each cycle, we compute:
+
+        forward_weight  = product of edge weights around the cycle
+        reverse_weight  = product around the reversed cycle
+        factor          = forward_weight * reverse_weight
+
+    If factor is meaningfully away from 1.0, we consider it an "interesting" cycle.
+    We also track the smallest and largest factors overall.
     """
     nodes = list(g.nodes)
+    n = len(nodes)
 
     min_factor = float('inf')
     max_factor = 0.0
@@ -177,40 +359,42 @@ def analyze_arbitrage(g):
 
     interesting_cycles = []
 
-    for source in nodes:
-        for target in nodes:
-            if source == target:
-                continue
+    # Iterate over all combinations of 3 distinct indices
+    for i in range(n):
+        for j in range(i + 1, n):
+            for k in range(j + 1, n):
+                a, b, c = nodes[i], nodes[j], nodes[k]
 
-            for forward_path in nx.all_simple_paths(g, source, target):
-                reverse_path = list(reversed(forward_path))
+                # Consider all 6 permutations of (a, b, c) as directed 3-cycles
+                for perm in permutations([a, b, c], 3):
+                    cycle = list(perm) + [perm[0]]  # e.g. [a, b, c, a]
+                    forward_weight = compute_path_weight(g, cycle)
+                    reverse_path = list(reversed(cycle))
+                    reverse_weight = compute_path_weight(g, reverse_path)
 
-                forward_weight = compute_path_weight(g, forward_path)
-                reverse_weight = compute_path_weight(g, reverse_path)
+                    if forward_weight is None or reverse_weight is None:
+                        continue
 
-                if forward_weight is None or reverse_weight is None:
-                    continue
+                    factor = forward_weight * reverse_weight
 
-                factor = forward_weight * reverse_weight
+                    # Track global min/max factors and their paths
+                    if factor < min_factor:
+                        min_factor = factor
+                        min_paths = (cycle, reverse_path)
 
-                # Track best / worst
-                if factor < min_factor:
-                    min_factor = factor
-                    min_paths = (forward_path, reverse_path)
+                    if factor > max_factor:
+                        max_factor = factor
+                        max_paths = (cycle, reverse_path)
 
-                if factor > max_factor:
-                    max_factor = factor
-                    max_paths = (forward_path, reverse_path)
-
-                # Store cycles that are meaningfully away from 1
-                if factor > 1.01 or factor < 0.99:
-                    interesting_cycles.append({
-                        "forward_path": forward_path,
-                        "reverse_path": reverse_path,
-                        "forward_weight": forward_weight,
-                        "reverse_weight": reverse_weight,
-                        "factor": factor,
-                    })
+                    # Store cycles that are meaningfully away from 1
+                    if abs(factor - 1.0) > 0.01:
+                        interesting_cycles.append({
+                            "forward_path": cycle,
+                            "reverse_path": reverse_path,
+                            "forward_weight": forward_weight,
+                            "reverse_weight": reverse_weight,
+                            "factor": factor,
+                        })
 
     summary = {
         "min_factor": min_factor,
@@ -238,6 +422,31 @@ def main():
     print("Max factor:", summary["max_factor"])
     print("Number of interesting cycles:", len(summary["interesting_cycles"]))
 
+    # 4. Place Alpaca paper trades based on interesting cycles
+    alpaca_orders = place_alpaca_trades_from_cycles(
+        summary["interesting_cycles"],
+        notional_per_trade=10.0,   # you can tweak this amount
+        max_trades=3,              # cap trades per run
+    )
+    print(f"Placed {len(alpaca_orders)} Alpaca paper trades.")
+
+    # 5. Append this run to results.json
+    all_results = load_results()
+    run_entry = {
+        "timestamp_utc": datetime.utcnow().isoformat(),
+        "pair_file": pair_file_path,
+        "prices_usd": prices_usd,
+        "arbitrage_summary": {
+            "min_factor": summary["min_factor"],
+            "min_paths": summary["min_paths"],
+            "max_factor": summary["max_factor"],
+            "max_paths": summary["max_paths"],
+            "num_interesting_cycles": len(summary["interesting_cycles"]),
+        },
+        "alpaca_orders": alpaca_orders,
+    }
+    all_results.append(run_entry)
+    save_results(all_results)
 
 if __name__ == "__main__":
     main()

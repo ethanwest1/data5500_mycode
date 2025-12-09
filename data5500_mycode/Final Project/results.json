@@ -1,0 +1,373 @@
+[
+  {
+    "timestamp_utc": "2025-12-09T03:22:57.934164",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.09:03.22.txt",
+    "prices_usd": {
+      "bitcoin": 89848,
+      "ethereum": 3093.67,
+      "litecoin": 82.86,
+      "ripple": 2.06,
+      "cardano": 0.428225,
+      "bitcoin-cash": 577.43,
+      "eos": 0.179368,
+      "solana": 132.71,
+      "polkadot": 2.11,
+      "chainlink": 13.58,
+      "uniswap": 5.45,
+      "avalanche-2": 13.55,
+      "stellar": 0.238576
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "eos",
+          "btc",
+          "link",
+          "eos"
+        ],
+        [
+          "eos",
+          "link",
+          "btc",
+          "eos"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "btc",
+          "eth",
+          "bch",
+          "btc"
+        ],
+        [
+          "btc",
+          "bch",
+          "eth",
+          "btc"
+        ]
+      ],
+      "num_interesting_cycles": 0
+    },
+    "alpaca_orders": []
+  },
+  {
+    "timestamp_utc": "2025-12-09T03:23:31.014832",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.09:03.23.txt",
+    "prices_usd": {
+      "bitcoin": 89848,
+      "ethereum": 3093.67,
+      "litecoin": 82.86,
+      "ripple": 2.06,
+      "cardano": 0.428225,
+      "bitcoin-cash": 577.43,
+      "eos": 0.179368,
+      "solana": 132.71,
+      "polkadot": 2.11,
+      "chainlink": 13.58,
+      "uniswap": 5.45,
+      "avalanche-2": 13.55,
+      "stellar": 0.238576
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "eos",
+          "btc",
+          "link",
+          "eos"
+        ],
+        [
+          "eos",
+          "link",
+          "btc",
+          "eos"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "btc",
+          "eth",
+          "bch",
+          "btc"
+        ],
+        [
+          "btc",
+          "bch",
+          "eth",
+          "btc"
+        ]
+      ],
+      "num_interesting_cycles": 0
+    },
+    "alpaca_orders": []
+  },
+  {
+    "timestamp_utc": "2025-12-09T03:25:18.533069",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.09:03.25.txt",
+    "prices_usd": {
+      "bitcoin": 89907,
+      "ethereum": 3096.12,
+      "litecoin": 82.84,
+      "ripple": 2.06,
+      "cardano": 0.428014,
+      "bitcoin-cash": 577.26,
+      "eos": 0.179285,
+      "solana": 132.7,
+      "polkadot": 2.1,
+      "chainlink": 13.58,
+      "uniswap": 5.45,
+      "avalanche-2": 13.55,
+      "stellar": 0.23855
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "eth",
+          "btc",
+          "dot",
+          "eth"
+        ],
+        [
+          "eth",
+          "dot",
+          "btc",
+          "eth"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "avax",
+          "btc",
+          "eos",
+          "avax"
+        ],
+        [
+          "avax",
+          "eos",
+          "btc",
+          "avax"
+        ]
+      ],
+      "num_interesting_cycles": 0
+    },
+    "alpaca_orders": []
+  },
+  {
+    "timestamp_utc": "2025-12-09T03:26:24.635067",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.09:03.26.txt",
+    "prices_usd": {
+      "bitcoin": 90051,
+      "ethereum": 3102.5,
+      "litecoin": 82.88,
+      "ripple": 2.06,
+      "cardano": 0.428181,
+      "bitcoin-cash": 577.35,
+      "eos": 0.179285,
+      "solana": 132.79,
+      "polkadot": 2.11,
+      "chainlink": 13.59,
+      "uniswap": 5.45,
+      "avalanche-2": 13.56,
+      "stellar": 0.238697
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999996,
+      "min_paths": [
+        [
+          "eos",
+          "btc",
+          "uni",
+          "eos"
+        ],
+        [
+          "eos",
+          "uni",
+          "btc",
+          "eos"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "btc",
+          "link",
+          "xlm",
+          "btc"
+        ],
+        [
+          "btc",
+          "xlm",
+          "link",
+          "btc"
+        ]
+      ],
+      "num_interesting_cycles": 0
+    },
+    "alpaca_orders": []
+  },
+  {
+    "timestamp_utc": "2025-12-09T03:27:06.260937",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.09:03.27.txt",
+    "prices_usd": {
+      "bitcoin": 90051,
+      "ethereum": 3102.5,
+      "litecoin": 82.88,
+      "ripple": 2.06,
+      "cardano": 0.428181,
+      "bitcoin-cash": 577.35,
+      "eos": 0.179285,
+      "solana": 132.79,
+      "polkadot": 2.11,
+      "chainlink": 13.59,
+      "uniswap": 5.45,
+      "avalanche-2": 13.56,
+      "stellar": 0.238697
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999996,
+      "min_paths": [
+        [
+          "eos",
+          "btc",
+          "uni",
+          "eos"
+        ],
+        [
+          "eos",
+          "uni",
+          "btc",
+          "eos"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "btc",
+          "link",
+          "xlm",
+          "btc"
+        ],
+        [
+          "btc",
+          "xlm",
+          "link",
+          "btc"
+        ]
+      ],
+      "num_interesting_cycles": 0
+    },
+    "alpaca_orders": []
+  },
+  {
+    "timestamp_utc": "2025-12-09T03:28:55.847415",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.09:03.28.txt",
+    "prices_usd": {
+      "bitcoin": 90019,
+      "ethereum": 3101.48,
+      "litecoin": 82.91,
+      "ripple": 2.06,
+      "cardano": 0.428077,
+      "bitcoin-cash": 577.45,
+      "eos": 0.178888,
+      "solana": 132.87,
+      "polkadot": 2.11,
+      "chainlink": 13.6,
+      "uniswap": 5.45,
+      "avalanche-2": 13.57,
+      "stellar": 0.238789
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999996,
+      "min_paths": [
+        [
+          "ada",
+          "link",
+          "uni",
+          "ada"
+        ],
+        [
+          "ada",
+          "uni",
+          "link",
+          "ada"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "link",
+          "eth",
+          "ltc",
+          "link"
+        ],
+        [
+          "link",
+          "ltc",
+          "eth",
+          "link"
+        ]
+      ],
+      "num_interesting_cycles": 0
+    },
+    "alpaca_orders": []
+  },
+  {
+    "timestamp_utc": "2025-12-09T03:29:54.338103",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.09:03.29.txt",
+    "prices_usd": {
+      "bitcoin": 90019,
+      "ethereum": 3101.48,
+      "litecoin": 82.91,
+      "ripple": 2.06,
+      "cardano": 0.428077,
+      "bitcoin-cash": 577.45,
+      "eos": 0.178888,
+      "solana": 132.87,
+      "polkadot": 2.11,
+      "chainlink": 13.6,
+      "uniswap": 5.45,
+      "avalanche-2": 13.57,
+      "stellar": 0.238789
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999996,
+      "min_paths": [
+        [
+          "ada",
+          "link",
+          "uni",
+          "ada"
+        ],
+        [
+          "ada",
+          "uni",
+          "link",
+          "ada"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "link",
+          "eth",
+          "ltc",
+          "link"
+        ],
+        [
+          "link",
+          "ltc",
+          "eth",
+          "link"
+        ]
+      ],
+      "num_interesting_cycles": 0
+    },
+    "alpaca_orders": []
+  }
+]

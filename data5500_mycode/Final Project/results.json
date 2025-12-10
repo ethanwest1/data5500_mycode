@@ -369,5 +369,5519 @@
       "num_interesting_cycles": 0
     },
     "alpaca_orders": []
+  },
+  {
+    "timestamp_utc": "2025-12-10T02:29:26.764707",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:02.29.txt",
+    "prices_usd": {
+      "bitcoin": 92495,
+      "ethereum": 3308.76,
+      "litecoin": 85.12,
+      "ripple": 2.09,
+      "cardano": 0.465088,
+      "bitcoin-cash": 578.11,
+      "eos": 0.186289,
+      "solana": 137.98,
+      "polkadot": 2.25,
+      "chainlink": 14.31,
+      "uniswap": 5.68,
+      "avalanche-2": 14.61,
+      "stellar": 0.251214
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "ltc",
+          "eth",
+          "sol",
+          "ltc"
+        ],
+        [
+          "ltc",
+          "sol",
+          "eth",
+          "ltc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "xrp",
+          "btc",
+          "eth",
+          "xrp"
+        ],
+        [
+          "xrp",
+          "eth",
+          "btc",
+          "xrp"
+        ]
+      ],
+      "num_interesting_cycles": 0
+    },
+    "alpaca_orders": []
+  },
+  {
+    "timestamp_utc": "2025-12-10T02:32:56.769372",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:02.32.txt",
+    "prices_usd": {
+      "bitcoin": 92446,
+      "ethereum": 3308.12,
+      "litecoin": 85.09,
+      "ripple": 2.09,
+      "cardano": 0.464991,
+      "bitcoin-cash": 577.81,
+      "eos": 0.185518,
+      "solana": 137.88,
+      "polkadot": 2.25,
+      "chainlink": 14.32,
+      "uniswap": 5.67,
+      "avalanche-2": 14.61,
+      "stellar": 0.251342
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "btc",
+          "sol",
+          "link",
+          "btc"
+        ],
+        [
+          "btc",
+          "link",
+          "sol",
+          "btc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "btc",
+          "eth",
+          "ada",
+          "btc"
+        ],
+        [
+          "btc",
+          "ada",
+          "eth",
+          "btc"
+        ]
+      ],
+      "num_interesting_cycles": 0
+    },
+    "alpaca_orders": []
+  },
+  {
+    "timestamp_utc": "2025-12-10T02:33:19.979169",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:02.33.txt",
+    "prices_usd": {
+      "bitcoin": 92446,
+      "ethereum": 3308.12,
+      "litecoin": 85.09,
+      "ripple": 2.09,
+      "cardano": 0.464991,
+      "bitcoin-cash": 577.81,
+      "eos": 0.185518,
+      "solana": 137.88,
+      "polkadot": 2.25,
+      "chainlink": 14.32,
+      "uniswap": 5.67,
+      "avalanche-2": 14.61,
+      "stellar": 0.251342
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "btc",
+          "sol",
+          "link",
+          "btc"
+        ],
+        [
+          "btc",
+          "link",
+          "sol",
+          "btc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "btc",
+          "eth",
+          "ada",
+          "btc"
+        ],
+        [
+          "btc",
+          "ada",
+          "eth",
+          "btc"
+        ]
+      ],
+      "num_interesting_cycles": 0
+    },
+    "alpaca_orders": []
+  },
+  {
+    "timestamp_utc": "2025-12-10T02:34:32.971167",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:02.34.txt",
+    "prices_usd": {
+      "bitcoin": 92469,
+      "ethereum": 3308.67,
+      "litecoin": 85.09,
+      "ripple": 2.09,
+      "cardano": 0.464995,
+      "bitcoin-cash": 577.9,
+      "eos": 0.185518,
+      "solana": 137.85,
+      "polkadot": 2.25,
+      "chainlink": 14.32,
+      "uniswap": 5.68,
+      "avalanche-2": 14.61,
+      "stellar": 0.251409
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999996,
+      "min_paths": [
+        [
+          "avax",
+          "btc",
+          "sol",
+          "avax"
+        ],
+        [
+          "avax",
+          "sol",
+          "btc",
+          "avax"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "uni",
+          "btc",
+          "eth",
+          "uni"
+        ],
+        [
+          "uni",
+          "eth",
+          "btc",
+          "uni"
+        ]
+      ],
+      "num_interesting_cycles": 0
+    },
+    "alpaca_orders": []
+  },
+  {
+    "timestamp_utc": "2025-12-10T02:37:00.520594",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:02.37.txt",
+    "prices_usd": {
+      "bitcoin": 92439,
+      "ethereum": 3307.73,
+      "litecoin": 85.08,
+      "ripple": 2.09,
+      "cardano": 0.464782,
+      "bitcoin-cash": 577.91,
+      "eos": 0.185583,
+      "solana": 137.83,
+      "polkadot": 2.25,
+      "chainlink": 14.31,
+      "uniswap": 5.68,
+      "avalanche-2": 14.61,
+      "stellar": 0.251447
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "xrp",
+          "eth",
+          "ada",
+          "xrp"
+        ],
+        [
+          "xrp",
+          "ada",
+          "eth",
+          "xrp"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "eos",
+          "btc",
+          "sol",
+          "eos"
+        ],
+        [
+          "eos",
+          "sol",
+          "btc",
+          "eos"
+        ]
+      ],
+      "num_interesting_cycles": 0
+    },
+    "alpaca_orders": []
+  },
+  {
+    "timestamp_utc": "2025-12-10T02:41:34.208506",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:02.41.txt",
+    "prices_usd": {
+      "bitcoin": 92398,
+      "ethereum": 3305.54,
+      "litecoin": 85.05,
+      "ripple": 2.09,
+      "cardano": 0.464107,
+      "bitcoin-cash": 577.9,
+      "eos": 0.185633,
+      "solana": 137.68,
+      "polkadot": 2.25,
+      "chainlink": 14.3,
+      "uniswap": 5.67,
+      "avalanche-2": 14.59,
+      "stellar": 0.251368
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "link",
+          "btc",
+          "ltc",
+          "link"
+        ],
+        [
+          "link",
+          "ltc",
+          "btc",
+          "link"
+        ]
+      ],
+      "num_interesting_cycles": 0
+    },
+    "alpaca_orders": []
+  },
+  {
+    "timestamp_utc": "2025-12-10T02:41:47.345924",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:02.41.txt",
+    "prices_usd": {
+      "bitcoin": 92398,
+      "ethereum": 3305.54,
+      "litecoin": 85.05,
+      "ripple": 2.09,
+      "cardano": 0.464107,
+      "bitcoin-cash": 577.9,
+      "eos": 0.185633,
+      "solana": 137.68,
+      "polkadot": 2.25,
+      "chainlink": 14.3,
+      "uniswap": 5.67,
+      "avalanche-2": 14.59,
+      "stellar": 0.251368
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "link",
+          "btc",
+          "ltc",
+          "link"
+        ],
+        [
+          "link",
+          "ltc",
+          "btc",
+          "link"
+        ]
+      ],
+      "num_interesting_cycles": 0
+    },
+    "alpaca_orders": []
+  },
+  {
+    "timestamp_utc": "2025-12-10T02:43:10.547502",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:02.43.txt",
+    "prices_usd": {
+      "bitcoin": 92376,
+      "ethereum": 3305.24,
+      "litecoin": 85.0,
+      "ripple": 2.09,
+      "cardano": 0.463861,
+      "bitcoin-cash": 577.8,
+      "eos": 0.185633,
+      "solana": 137.65,
+      "polkadot": 2.25,
+      "chainlink": 14.29,
+      "uniswap": 5.67,
+      "avalanche-2": 14.59,
+      "stellar": 0.251329
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "xrp",
+          "btc",
+          "ada",
+          "xrp"
+        ],
+        [
+          "xrp",
+          "ada",
+          "btc",
+          "xrp"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "sol",
+          "btc",
+          "link",
+          "sol"
+        ],
+        [
+          "sol",
+          "link",
+          "btc",
+          "sol"
+        ]
+      ],
+      "num_interesting_cycles": 0
+    },
+    "alpaca_orders": []
+  },
+  {
+    "timestamp_utc": "2025-12-10T02:45:17.754489",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:02.45.txt",
+    "prices_usd": {
+      "bitcoin": 92386,
+      "ethereum": 3305.88,
+      "litecoin": 84.98,
+      "ripple": 2.09,
+      "cardano": 0.463574,
+      "bitcoin-cash": 577.92,
+      "eos": 0.185633,
+      "solana": 137.63,
+      "polkadot": 2.25,
+      "chainlink": 14.28,
+      "uniswap": 5.67,
+      "avalanche-2": 14.59,
+      "stellar": 0.251236
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "xrp",
+          "btc",
+          "ada",
+          "xrp"
+        ],
+        [
+          "xrp",
+          "ada",
+          "btc",
+          "xrp"
+        ]
+      ],
+      "num_interesting_cycles": 0
+    },
+    "alpaca_orders": []
+  },
+  {
+    "timestamp_utc": "2025-12-10T02:49:47.078560",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:02.49.txt",
+    "prices_usd": {
+      "bitcoin": 92293,
+      "ethereum": 3301.39,
+      "litecoin": 84.92,
+      "ripple": 2.09,
+      "cardano": 0.463364,
+      "bitcoin-cash": 578.01,
+      "eos": 0.185654,
+      "solana": 137.52,
+      "polkadot": 2.25,
+      "chainlink": 14.27,
+      "uniswap": 5.67,
+      "avalanche-2": 14.59,
+      "stellar": 0.251116
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "ltc",
+          "btc",
+          "sol",
+          "ltc"
+        ],
+        [
+          "ltc",
+          "sol",
+          "btc",
+          "ltc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "uni",
+          "btc",
+          "xrp",
+          "uni"
+        ],
+        [
+          "uni",
+          "xrp",
+          "btc",
+          "uni"
+        ]
+      ],
+      "num_interesting_cycles": 896
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "7efd230a-a046-47ba-a97c-418451ea2470",
+          "client_order_id": "4365b661-6e21-4b6e-af9c-dcdcc66f6fc5",
+          "created_at": "2025-12-10T02:49:46.969854169Z",
+          "updated_at": "2025-12-10T02:49:46.971627729Z",
+          "submitted_at": "2025-12-10T02:49:46.969854169Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "bdf7f69c-1b42-4e9f-8fca-aa41b059974f",
+          "client_order_id": "639c0569-f890-4388-8af4-b6ce19d9e26c",
+          "created_at": "2025-12-10T02:49:47.025584708Z",
+          "updated_at": "2025-12-10T02:49:47.026519548Z",
+          "submitted_at": "2025-12-10T02:49:47.025584708Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "ltc",
+          "btc",
+          "eth",
+          "ltc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "6121add7-5b73-427f-88a0-db186a08fba7",
+          "client_order_id": "728fb0e7-0f63-4ea6-9375-6c7e4fc22f41",
+          "created_at": "2025-12-10T02:49:47.073729987Z",
+          "updated_at": "2025-12-10T02:49:47.074647237Z",
+          "submitted_at": "2025-12-10T02:49:47.073729987Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "19c466e7-e8f7-43e0-a8c5-f17ec9f5de8d",
+          "symbol": "LTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T02:50:04.410142",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:02.50.txt",
+    "prices_usd": {
+      "bitcoin": 92328,
+      "ethereum": 3302.95,
+      "litecoin": 84.92,
+      "ripple": 2.09,
+      "cardano": 0.463269,
+      "bitcoin-cash": 578.05,
+      "eos": 0.185775,
+      "solana": 137.53,
+      "polkadot": 2.25,
+      "chainlink": 14.27,
+      "uniswap": 5.67,
+      "avalanche-2": 14.59,
+      "stellar": 0.251125
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "btc",
+          "ltc",
+          "uni",
+          "btc"
+        ],
+        [
+          "btc",
+          "uni",
+          "ltc",
+          "btc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "link",
+          "btc",
+          "eth",
+          "link"
+        ],
+        [
+          "link",
+          "eth",
+          "btc",
+          "link"
+        ]
+      ],
+      "num_interesting_cycles": 994
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "45c7540f-c4dc-416c-84f5-2779f0cbeccc",
+          "client_order_id": "c84f4b47-ab6e-4384-9fca-44fb7dc11bbc",
+          "created_at": "2025-12-10T02:50:04.302735697Z",
+          "updated_at": "2025-12-10T02:50:04.303934107Z",
+          "submitted_at": "2025-12-10T02:50:04.302735697Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "3f4c98cf-c414-49f0-8130-9e7f679be780",
+          "client_order_id": "5697420c-bb10-4dfa-b6e3-b6d3966b9319",
+          "created_at": "2025-12-10T02:50:04.354145236Z",
+          "updated_at": "2025-12-10T02:50:04.355190006Z",
+          "submitted_at": "2025-12-10T02:50:04.354145236Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ltc",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "8d5b9a14-d19a-4d2d-ac06-745104cd0e13",
+          "client_order_id": "e0f12079-e627-4532-bbce-8679a5b80edb",
+          "created_at": "2025-12-10T02:50:04.404911305Z",
+          "updated_at": "2025-12-10T02:50:04.405894215Z",
+          "submitted_at": "2025-12-10T02:50:04.404911305Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T02:53:28.533694",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:02.53.txt",
+    "prices_usd": {
+      "bitcoin": 92308,
+      "ethereum": 3301.29,
+      "litecoin": 84.86,
+      "ripple": 2.09,
+      "cardano": 0.462923,
+      "bitcoin-cash": 578.06,
+      "eos": 0.185775,
+      "solana": 137.49,
+      "polkadot": 2.24,
+      "chainlink": 14.25,
+      "uniswap": 5.66,
+      "avalanche-2": 14.59,
+      "stellar": 0.251068
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "ltc",
+          "btc",
+          "dot",
+          "ltc"
+        ],
+        [
+          "ltc",
+          "dot",
+          "btc",
+          "ltc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "bch",
+          "eth",
+          "xrp",
+          "bch"
+        ],
+        [
+          "bch",
+          "xrp",
+          "eth",
+          "bch"
+        ]
+      ],
+      "num_interesting_cycles": 1080
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "930d9d0c-caed-48bd-a9f1-a579c77da0d2",
+          "client_order_id": "e621fc42-c6d5-46af-9aea-041a47add3bc",
+          "created_at": "2025-12-10T02:53:28.424984228Z",
+          "updated_at": "2025-12-10T02:53:28.426298628Z",
+          "submitted_at": "2025-12-10T02:53:28.424984228Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "d15859e0-efd6-462f-ab5b-845652485ed7",
+          "client_order_id": "7d974f34-726c-449d-a5a9-985356a735ca",
+          "created_at": "2025-12-10T02:53:28.477057627Z",
+          "updated_at": "2025-12-10T02:53:28.478080897Z",
+          "submitted_at": "2025-12-10T02:53:28.477057627Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "ltc",
+          "btc",
+          "eth",
+          "ltc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "4278fa15-88d9-4fd0-b3ef-606a04b07cf4",
+          "client_order_id": "cc4f4cb0-60e6-401e-a625-18d8fdf0ee1d",
+          "created_at": "2025-12-10T02:53:28.527540306Z",
+          "updated_at": "2025-12-10T02:53:28.528522116Z",
+          "submitted_at": "2025-12-10T02:53:28.527540306Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "19c466e7-e8f7-43e0-a8c5-f17ec9f5de8d",
+          "symbol": "LTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T02:53:29.464056",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:02.53.txt",
+    "prices_usd": {
+      "bitcoin": 92308,
+      "ethereum": 3301.29,
+      "litecoin": 84.86,
+      "ripple": 2.09,
+      "cardano": 0.462923,
+      "bitcoin-cash": 578.06,
+      "eos": 0.185775,
+      "solana": 137.49,
+      "polkadot": 2.24,
+      "chainlink": 14.25,
+      "uniswap": 5.66,
+      "avalanche-2": 14.59,
+      "stellar": 0.251068
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "ltc",
+          "btc",
+          "dot",
+          "ltc"
+        ],
+        [
+          "ltc",
+          "dot",
+          "btc",
+          "ltc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "bch",
+          "eth",
+          "xrp",
+          "bch"
+        ],
+        [
+          "bch",
+          "xrp",
+          "eth",
+          "bch"
+        ]
+      ],
+      "num_interesting_cycles": 1080
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "c4077adf-0c33-49f6-8c0a-1195e81e557a",
+          "client_order_id": "1915023c-aba3-4c1a-a72c-68a7527aa331",
+          "created_at": "2025-12-10T02:53:29.359598129Z",
+          "updated_at": "2025-12-10T02:53:29.360809229Z",
+          "submitted_at": "2025-12-10T02:53:29.359598129Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "644d2f9f-2d1e-4944-b1fe-4e8ecdd08338",
+          "client_order_id": "74ff85c2-40de-4407-a118-96d38cab8c79",
+          "created_at": "2025-12-10T02:53:29.408389338Z",
+          "updated_at": "2025-12-10T02:53:29.409480588Z",
+          "submitted_at": "2025-12-10T02:53:29.408389338Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "ltc",
+          "btc",
+          "eth",
+          "ltc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "5fd0709e-165d-4636-85bb-77c352ed22cd",
+          "client_order_id": "b9d56e0b-019e-47ad-9fdc-ebde774c9b38",
+          "created_at": "2025-12-10T02:53:29.458024777Z",
+          "updated_at": "2025-12-10T02:53:29.458877717Z",
+          "submitted_at": "2025-12-10T02:53:29.458024777Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "19c466e7-e8f7-43e0-a8c5-f17ec9f5de8d",
+          "symbol": "LTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T02:53:30.410834",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:02.53.txt",
+    "prices_usd": {
+      "bitcoin": 92308,
+      "ethereum": 3301.29,
+      "litecoin": 84.86,
+      "ripple": 2.09,
+      "cardano": 0.462923,
+      "bitcoin-cash": 578.06,
+      "eos": 0.185775,
+      "solana": 137.49,
+      "polkadot": 2.24,
+      "chainlink": 14.25,
+      "uniswap": 5.66,
+      "avalanche-2": 14.59,
+      "stellar": 0.251068
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "ltc",
+          "btc",
+          "dot",
+          "ltc"
+        ],
+        [
+          "ltc",
+          "dot",
+          "btc",
+          "ltc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "bch",
+          "eth",
+          "xrp",
+          "bch"
+        ],
+        [
+          "bch",
+          "xrp",
+          "eth",
+          "bch"
+        ]
+      ],
+      "num_interesting_cycles": 1080
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "942cf829-7fbf-4608-a07c-bf3f5390b925",
+          "client_order_id": "1b4b0a2c-92cf-45c3-9305-09553e8ba097",
+          "created_at": "2025-12-10T02:53:30.30426436Z",
+          "updated_at": "2025-12-10T02:53:30.30533362Z",
+          "submitted_at": "2025-12-10T02:53:30.30426436Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "20edf262-0199-4dde-bcc9-c066f9181ec6",
+          "client_order_id": "381bdde3-50ae-4269-8fff-95fe00f6b9b6",
+          "created_at": "2025-12-10T02:53:30.353801109Z",
+          "updated_at": "2025-12-10T02:53:30.354939159Z",
+          "submitted_at": "2025-12-10T02:53:30.353801109Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "ltc",
+          "btc",
+          "eth",
+          "ltc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "a469a7b0-b5cb-4344-b5a4-207f65b7b90a",
+          "client_order_id": "aec51053-52d3-4657-9085-188999cbe245",
+          "created_at": "2025-12-10T02:53:30.405447818Z",
+          "updated_at": "2025-12-10T02:53:30.406484538Z",
+          "submitted_at": "2025-12-10T02:53:30.405447818Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "19c466e7-e8f7-43e0-a8c5-f17ec9f5de8d",
+          "symbol": "LTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T02:53:31.253401",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:02.53.txt",
+    "prices_usd": {
+      "bitcoin": 92308,
+      "ethereum": 3301.29,
+      "litecoin": 84.86,
+      "ripple": 2.09,
+      "cardano": 0.462923,
+      "bitcoin-cash": 578.06,
+      "eos": 0.185775,
+      "solana": 137.49,
+      "polkadot": 2.24,
+      "chainlink": 14.25,
+      "uniswap": 5.66,
+      "avalanche-2": 14.59,
+      "stellar": 0.251068
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "ltc",
+          "btc",
+          "dot",
+          "ltc"
+        ],
+        [
+          "ltc",
+          "dot",
+          "btc",
+          "ltc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "bch",
+          "eth",
+          "xrp",
+          "bch"
+        ],
+        [
+          "bch",
+          "xrp",
+          "eth",
+          "bch"
+        ]
+      ],
+      "num_interesting_cycles": 1080
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "81bd38e0-8366-4f3c-97ed-714f9301da38",
+          "client_order_id": "4f42909b-03e7-4bfe-9c09-cec7949b9f1a",
+          "created_at": "2025-12-10T02:53:31.145257813Z",
+          "updated_at": "2025-12-10T02:53:31.146420703Z",
+          "submitted_at": "2025-12-10T02:53:31.145257813Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "b7b4b4e2-cdd8-407e-8ffe-24c598a98956",
+          "client_order_id": "5d5ef6b4-d562-4543-93a5-2bf5faf0a78c",
+          "created_at": "2025-12-10T02:53:31.196358082Z",
+          "updated_at": "2025-12-10T02:53:31.197481132Z",
+          "submitted_at": "2025-12-10T02:53:31.196358082Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "ltc",
+          "btc",
+          "eth",
+          "ltc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "d8c41a1b-3346-4002-a2b7-eeb6b9e6e73a",
+          "client_order_id": "f13f7ee4-5257-4051-b2d4-32b87ff0e137",
+          "created_at": "2025-12-10T02:53:31.247779121Z",
+          "updated_at": "2025-12-10T02:53:31.248740451Z",
+          "submitted_at": "2025-12-10T02:53:31.247779121Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "19c466e7-e8f7-43e0-a8c5-f17ec9f5de8d",
+          "symbol": "LTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T02:53:32.053701",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:02.53.txt",
+    "prices_usd": {
+      "bitcoin": 92308,
+      "ethereum": 3301.29,
+      "litecoin": 84.86,
+      "ripple": 2.09,
+      "cardano": 0.462923,
+      "bitcoin-cash": 578.06,
+      "eos": 0.185775,
+      "solana": 137.49,
+      "polkadot": 2.24,
+      "chainlink": 14.25,
+      "uniswap": 5.66,
+      "avalanche-2": 14.59,
+      "stellar": 0.251068
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "ltc",
+          "btc",
+          "dot",
+          "ltc"
+        ],
+        [
+          "ltc",
+          "dot",
+          "btc",
+          "ltc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "bch",
+          "eth",
+          "xrp",
+          "bch"
+        ],
+        [
+          "bch",
+          "xrp",
+          "eth",
+          "bch"
+        ]
+      ],
+      "num_interesting_cycles": 1080
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "67cb4b25-d847-4f54-9f19-78b29e0ecf0c",
+          "client_order_id": "6fdfb3cb-56ac-42c4-bcf9-cf783e11c26c",
+          "created_at": "2025-12-10T02:53:31.942371066Z",
+          "updated_at": "2025-12-10T02:53:31.943518116Z",
+          "submitted_at": "2025-12-10T02:53:31.942371066Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "9235e0a9-a2e0-48bd-b5c0-ff540d11b4b2",
+          "client_order_id": "a4e1bbf1-757d-4232-81a6-414f93f9ba39",
+          "created_at": "2025-12-10T02:53:31.995574425Z",
+          "updated_at": "2025-12-10T02:53:31.996597635Z",
+          "submitted_at": "2025-12-10T02:53:31.995574425Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "ltc",
+          "btc",
+          "eth",
+          "ltc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "e880bd45-66f2-40a9-ad02-0344be5d59fa",
+          "client_order_id": "f8a8f660-50a0-4570-bbf3-fe1a4191465a",
+          "created_at": "2025-12-10T02:53:32.047859154Z",
+          "updated_at": "2025-12-10T02:53:32.048827584Z",
+          "submitted_at": "2025-12-10T02:53:32.047859154Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "19c466e7-e8f7-43e0-a8c5-f17ec9f5de8d",
+          "symbol": "LTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:01:33.805217",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.01.txt",
+    "prices_usd": {
+      "bitcoin": 92494,
+      "ethereum": 3311.59,
+      "litecoin": 84.96,
+      "ripple": 2.09,
+      "cardano": 0.462939,
+      "bitcoin-cash": 578.07,
+      "eos": 0.185694,
+      "solana": 137.62,
+      "polkadot": 2.25,
+      "chainlink": 14.26,
+      "uniswap": 5.66,
+      "avalanche-2": 14.6,
+      "stellar": 0.251239
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "btc",
+          "eth",
+          "bch",
+          "btc"
+        ],
+        [
+          "btc",
+          "bch",
+          "eth",
+          "btc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "dot",
+          "btc",
+          "xrp",
+          "dot"
+        ],
+        [
+          "dot",
+          "xrp",
+          "btc",
+          "dot"
+        ]
+      ],
+      "num_interesting_cycles": 946
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "2e0387b8-0bf1-4d83-92d9-44eba892ca70",
+          "client_order_id": "bc14dc00-6c3c-45db-a731-a44837c64e87",
+          "created_at": "2025-12-10T03:01:33.695529955Z",
+          "updated_at": "2025-12-10T03:01:33.696569745Z",
+          "submitted_at": "2025-12-10T03:01:33.695529955Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "b4a61377-ca3d-4e39-807b-23f18d1a6051",
+          "client_order_id": "ccb5d621-e11d-4bd7-b2fb-3bc96e1019fb",
+          "created_at": "2025-12-10T03:01:33.748782513Z",
+          "updated_at": "2025-12-10T03:01:33.749845923Z",
+          "submitted_at": "2025-12-10T03:01:33.748782513Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ltc",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "ed45c40a-833d-44ed-b7b5-37250824f4fd",
+          "client_order_id": "7171296f-8f3f-456e-9e3e-31725502a519",
+          "created_at": "2025-12-10T03:01:33.799390472Z",
+          "updated_at": "2025-12-10T03:01:33.800470872Z",
+          "submitted_at": "2025-12-10T03:01:33.799390472Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:01:39.582664",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.01.txt",
+    "prices_usd": {
+      "bitcoin": 92494,
+      "ethereum": 3311.59,
+      "litecoin": 84.96,
+      "ripple": 2.09,
+      "cardano": 0.462939,
+      "bitcoin-cash": 578.07,
+      "eos": 0.185694,
+      "solana": 137.62,
+      "polkadot": 2.25,
+      "chainlink": 14.26,
+      "uniswap": 5.66,
+      "avalanche-2": 14.6,
+      "stellar": 0.251239
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "btc",
+          "eth",
+          "bch",
+          "btc"
+        ],
+        [
+          "btc",
+          "bch",
+          "eth",
+          "btc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "dot",
+          "btc",
+          "xrp",
+          "dot"
+        ],
+        [
+          "dot",
+          "xrp",
+          "btc",
+          "dot"
+        ]
+      ],
+      "num_interesting_cycles": 946
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "8578c5e3-bbbb-4601-96d1-112e8cd5a960",
+          "client_order_id": "dfe6f90c-9d4d-4223-a617-9f3514bda02f",
+          "created_at": "2025-12-10T03:01:39.470320206Z",
+          "updated_at": "2025-12-10T03:01:39.471936606Z",
+          "submitted_at": "2025-12-10T03:01:39.470320206Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "149a3516-b4cc-4a20-b12d-ea5452f3d30d",
+          "client_order_id": "cdca01f2-a798-4528-80bc-8d27d9accb6b",
+          "created_at": "2025-12-10T03:01:39.525058344Z",
+          "updated_at": "2025-12-10T03:01:39.526167574Z",
+          "submitted_at": "2025-12-10T03:01:39.525058344Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ltc",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "5bccb8a3-c2fd-4ae1-a99e-1f19a9db6c20",
+          "client_order_id": "00533fc1-82b6-41ff-a17b-f879b274a24e",
+          "created_at": "2025-12-10T03:01:39.574089143Z",
+          "updated_at": "2025-12-10T03:01:39.577546723Z",
+          "submitted_at": "2025-12-10T03:01:39.574089143Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:01:40.793002",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.01.txt",
+    "prices_usd": {
+      "bitcoin": 92494,
+      "ethereum": 3311.59,
+      "litecoin": 84.96,
+      "ripple": 2.09,
+      "cardano": 0.462939,
+      "bitcoin-cash": 578.07,
+      "eos": 0.185694,
+      "solana": 137.62,
+      "polkadot": 2.25,
+      "chainlink": 14.26,
+      "uniswap": 5.66,
+      "avalanche-2": 14.6,
+      "stellar": 0.251239
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "btc",
+          "eth",
+          "bch",
+          "btc"
+        ],
+        [
+          "btc",
+          "bch",
+          "eth",
+          "btc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "dot",
+          "btc",
+          "xrp",
+          "dot"
+        ],
+        [
+          "dot",
+          "xrp",
+          "btc",
+          "dot"
+        ]
+      ],
+      "num_interesting_cycles": 946
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "bf770681-1c55-43cf-bce0-7acfe8a1fa35",
+          "client_order_id": "f740d4d6-8e6c-4507-90b0-67ff1fe9d859",
+          "created_at": "2025-12-10T03:01:40.681387211Z",
+          "updated_at": "2025-12-10T03:01:40.682546801Z",
+          "submitted_at": "2025-12-10T03:01:40.681387211Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "563b56ec-3e9c-48e7-900c-eb282a761f2a",
+          "client_order_id": "5587ac2d-5988-4222-aae3-056fa9c23a9e",
+          "created_at": "2025-12-10T03:01:40.736647999Z",
+          "updated_at": "2025-12-10T03:01:40.737636279Z",
+          "submitted_at": "2025-12-10T03:01:40.736647999Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ltc",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "dd4ba205-0406-42c6-8fe2-578ccd597631",
+          "client_order_id": "b984d134-5312-4d5b-9a46-5991ccaf23bb",
+          "created_at": "2025-12-10T03:01:40.787569208Z",
+          "updated_at": "2025-12-10T03:01:40.788550698Z",
+          "submitted_at": "2025-12-10T03:01:40.787569208Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:01:41.889973",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.01.txt",
+    "prices_usd": {
+      "bitcoin": 92494,
+      "ethereum": 3311.59,
+      "litecoin": 84.96,
+      "ripple": 2.09,
+      "cardano": 0.462939,
+      "bitcoin-cash": 578.07,
+      "eos": 0.185694,
+      "solana": 137.62,
+      "polkadot": 2.25,
+      "chainlink": 14.26,
+      "uniswap": 5.66,
+      "avalanche-2": 14.6,
+      "stellar": 0.251239
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "btc",
+          "eth",
+          "bch",
+          "btc"
+        ],
+        [
+          "btc",
+          "bch",
+          "eth",
+          "btc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "dot",
+          "btc",
+          "xrp",
+          "dot"
+        ],
+        [
+          "dot",
+          "xrp",
+          "btc",
+          "dot"
+        ]
+      ],
+      "num_interesting_cycles": 946
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "7e669bd5-7bdf-4034-83f6-4c18d906527e",
+          "client_order_id": "d95c91a2-f30e-485a-a6ea-ab2de09e77d0",
+          "created_at": "2025-12-10T03:01:41.782797358Z",
+          "updated_at": "2025-12-10T03:01:41.783870248Z",
+          "submitted_at": "2025-12-10T03:01:41.782797358Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "63128223-21d0-46f0-a626-b7aadc4673ad",
+          "client_order_id": "bdfa836e-4311-41a4-a784-41b22623b4b8",
+          "created_at": "2025-12-10T03:01:41.833830657Z",
+          "updated_at": "2025-12-10T03:01:41.834952837Z",
+          "submitted_at": "2025-12-10T03:01:41.833830657Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ltc",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "39d17dd6-ad39-4774-b77a-7369aaaf0eab",
+          "client_order_id": "7141bf42-5d64-4313-9364-e362530bb4f5",
+          "created_at": "2025-12-10T03:01:41.884490136Z",
+          "updated_at": "2025-12-10T03:01:41.885519416Z",
+          "submitted_at": "2025-12-10T03:01:41.884490136Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:01:42.917929",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.01.txt",
+    "prices_usd": {
+      "bitcoin": 92494,
+      "ethereum": 3311.59,
+      "litecoin": 84.96,
+      "ripple": 2.09,
+      "cardano": 0.462939,
+      "bitcoin-cash": 578.07,
+      "eos": 0.185694,
+      "solana": 137.62,
+      "polkadot": 2.25,
+      "chainlink": 14.26,
+      "uniswap": 5.66,
+      "avalanche-2": 14.6,
+      "stellar": 0.251239
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "btc",
+          "eth",
+          "bch",
+          "btc"
+        ],
+        [
+          "btc",
+          "bch",
+          "eth",
+          "btc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "dot",
+          "btc",
+          "xrp",
+          "dot"
+        ],
+        [
+          "dot",
+          "xrp",
+          "btc",
+          "dot"
+        ]
+      ],
+      "num_interesting_cycles": 946
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "e953f362-7c93-410b-8fa1-b95f584288c2",
+          "client_order_id": "6fbcb8d9-5cb9-48c9-b7b2-c7615a745945",
+          "created_at": "2025-12-10T03:01:42.811263188Z",
+          "updated_at": "2025-12-10T03:01:42.812356098Z",
+          "submitted_at": "2025-12-10T03:01:42.811263188Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "5a0757e0-5b56-4856-ac7a-7f7ca30d9da9",
+          "client_order_id": "da0353d1-7a10-45c9-984d-21e5c5fc8047",
+          "created_at": "2025-12-10T03:01:42.862157187Z",
+          "updated_at": "2025-12-10T03:01:42.863176997Z",
+          "submitted_at": "2025-12-10T03:01:42.862157187Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+          "symbol": "BTC/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ltc",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "b5f47cfe-afa5-4d7d-9521-338e7af29826",
+          "client_order_id": "46afe77f-a779-443e-a9bc-ceb29cad1d16",
+          "created_at": "2025-12-10T03:01:42.912121616Z",
+          "updated_at": "2025-12-10T03:01:42.913057746Z",
+          "submitted_at": "2025-12-10T03:01:42.912121616Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:07:45.440268",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.07.txt",
+    "prices_usd": {
+      "bitcoin": 92417,
+      "ethereum": 3309.41,
+      "litecoin": 84.87,
+      "ripple": 2.09,
+      "cardano": 0.462589,
+      "bitcoin-cash": 577.48,
+      "eos": 0.18545,
+      "solana": 137.77,
+      "polkadot": 2.25,
+      "chainlink": 14.25,
+      "uniswap": 5.66,
+      "avalanche-2": 14.61,
+      "stellar": 0.251246
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "dot",
+          "btc",
+          "eth",
+          "dot"
+        ],
+        [
+          "dot",
+          "eth",
+          "btc",
+          "dot"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "link",
+          "eth",
+          "eos",
+          "link"
+        ],
+        [
+          "link",
+          "eos",
+          "eth",
+          "link"
+        ]
+      ],
+      "num_interesting_cycles": 930
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "xrp",
+          "eth"
+        ],
+        "factor": 1.0000000000000002,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "51be119f-00bf-43a6-97e6-ae65e5c85b7e",
+          "client_order_id": "e9b033fe-57f6-4f12-a59e-5b3d19f1c562",
+          "created_at": "2025-12-10T03:07:45.329952704Z",
+          "updated_at": "2025-12-10T03:07:45.331188254Z",
+          "submitted_at": "2025-12-10T03:07:45.329952704Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "eth",
+          "xrp",
+          "btc",
+          "eth"
+        ],
+        "factor": 1.0000000000000002,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "92dce58d-7bd7-4394-a177-65d36f55fbf2",
+          "client_order_id": "6cc13d54-6230-4fe5-8bc1-71b9af17401a",
+          "created_at": "2025-12-10T03:07:45.384144982Z",
+          "updated_at": "2025-12-10T03:07:45.385000432Z",
+          "submitted_at": "2025-12-10T03:07:45.384144982Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ada",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "d8bb5c97-3c74-495c-a9a0-a1e05719dcb5",
+          "client_order_id": "dd5b4a0a-84ec-47b1-ac5d-d67626e8fc83",
+          "created_at": "2025-12-10T03:07:45.434095151Z",
+          "updated_at": "2025-12-10T03:07:45.435038971Z",
+          "submitted_at": "2025-12-10T03:07:45.434095151Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:07:46.617858",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.07.txt",
+    "prices_usd": {
+      "bitcoin": 92417,
+      "ethereum": 3309.41,
+      "litecoin": 84.87,
+      "ripple": 2.09,
+      "cardano": 0.462589,
+      "bitcoin-cash": 577.48,
+      "eos": 0.18545,
+      "solana": 137.77,
+      "polkadot": 2.25,
+      "chainlink": 14.25,
+      "uniswap": 5.66,
+      "avalanche-2": 14.61,
+      "stellar": 0.251246
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "dot",
+          "btc",
+          "eth",
+          "dot"
+        ],
+        [
+          "dot",
+          "eth",
+          "btc",
+          "dot"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "link",
+          "eth",
+          "eos",
+          "link"
+        ],
+        [
+          "link",
+          "eos",
+          "eth",
+          "link"
+        ]
+      ],
+      "num_interesting_cycles": 930
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "xrp",
+          "eth"
+        ],
+        "factor": 1.0000000000000002,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "5a0fe9aa-eb49-4e24-ae53-b3ac7e7d6403",
+          "client_order_id": "5ca71ec9-2f16-4ad0-8cea-98927fb31e35",
+          "created_at": "2025-12-10T03:07:46.51063778Z",
+          "updated_at": "2025-12-10T03:07:46.51179671Z",
+          "submitted_at": "2025-12-10T03:07:46.51063778Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "eth",
+          "xrp",
+          "btc",
+          "eth"
+        ],
+        "factor": 1.0000000000000002,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "7a692e0c-430f-490f-8d64-f12f87a44ab3",
+          "client_order_id": "b1a207ea-8c9f-4c1d-93ce-db1f5b6c79cf",
+          "created_at": "2025-12-10T03:07:46.564071439Z",
+          "updated_at": "2025-12-10T03:07:46.565038999Z",
+          "submitted_at": "2025-12-10T03:07:46.564071439Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ada",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "43f92c68-9f73-4f6b-a35c-e6b75a822175",
+          "client_order_id": "10c184bc-5f74-4355-9556-b0009ccf82a7",
+          "created_at": "2025-12-10T03:07:46.611985938Z",
+          "updated_at": "2025-12-10T03:07:46.612946288Z",
+          "submitted_at": "2025-12-10T03:07:46.611985938Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:07:47.840994",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.07.txt",
+    "prices_usd": {
+      "bitcoin": 92417,
+      "ethereum": 3309.41,
+      "litecoin": 84.87,
+      "ripple": 2.09,
+      "cardano": 0.462589,
+      "bitcoin-cash": 577.48,
+      "eos": 0.18545,
+      "solana": 137.77,
+      "polkadot": 2.25,
+      "chainlink": 14.25,
+      "uniswap": 5.66,
+      "avalanche-2": 14.61,
+      "stellar": 0.251246
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "dot",
+          "btc",
+          "eth",
+          "dot"
+        ],
+        [
+          "dot",
+          "eth",
+          "btc",
+          "dot"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "link",
+          "eth",
+          "eos",
+          "link"
+        ],
+        [
+          "link",
+          "eos",
+          "eth",
+          "link"
+        ]
+      ],
+      "num_interesting_cycles": 930
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "xrp",
+          "eth"
+        ],
+        "factor": 1.0000000000000002,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "fbf4204f-be51-4f97-af6c-6c9a20b74921",
+          "client_order_id": "b848751b-edec-4788-bc81-9409dfaf46ae",
+          "created_at": "2025-12-10T03:07:47.691540726Z",
+          "updated_at": "2025-12-10T03:07:47.692520797Z",
+          "submitted_at": "2025-12-10T03:07:47.691540726Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "eth",
+          "xrp",
+          "btc",
+          "eth"
+        ],
+        "factor": 1.0000000000000002,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "1d98d8f2-40ca-447f-bdf5-09ef2fafa210",
+          "client_order_id": "de14d029-d132-4246-ad39-23dda3fe6de0",
+          "created_at": "2025-12-10T03:07:47.783815895Z",
+          "updated_at": "2025-12-10T03:07:47.784762525Z",
+          "submitted_at": "2025-12-10T03:07:47.783815895Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ada",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "26277815-9b64-4303-a72a-944c62d9f69c",
+          "client_order_id": "48a853cb-b85a-4c4c-9ab6-fa335b43cb55",
+          "created_at": "2025-12-10T03:07:47.835248454Z",
+          "updated_at": "2025-12-10T03:07:47.836246174Z",
+          "submitted_at": "2025-12-10T03:07:47.835248454Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:07:48.908444",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.07.txt",
+    "prices_usd": {
+      "bitcoin": 92417,
+      "ethereum": 3309.41,
+      "litecoin": 84.87,
+      "ripple": 2.09,
+      "cardano": 0.462589,
+      "bitcoin-cash": 577.48,
+      "eos": 0.18545,
+      "solana": 137.77,
+      "polkadot": 2.25,
+      "chainlink": 14.25,
+      "uniswap": 5.66,
+      "avalanche-2": 14.61,
+      "stellar": 0.251246
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "dot",
+          "btc",
+          "eth",
+          "dot"
+        ],
+        [
+          "dot",
+          "eth",
+          "btc",
+          "dot"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "link",
+          "eth",
+          "eos",
+          "link"
+        ],
+        [
+          "link",
+          "eos",
+          "eth",
+          "link"
+        ]
+      ],
+      "num_interesting_cycles": 930
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "xrp",
+          "eth"
+        ],
+        "factor": 1.0000000000000002,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "64029e3f-d7c0-47c1-b59d-6667e3d98fb8",
+          "client_order_id": "eda5c37a-cb28-48ad-8870-84257b50f81a",
+          "created_at": "2025-12-10T03:07:48.800894994Z",
+          "updated_at": "2025-12-10T03:07:48.801942934Z",
+          "submitted_at": "2025-12-10T03:07:48.800894994Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "eth",
+          "xrp",
+          "btc",
+          "eth"
+        ],
+        "factor": 1.0000000000000002,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "9b8e0cdc-3863-44b1-bb53-60430865e483",
+          "client_order_id": "e6730465-d643-47c6-af70-f9b01ba85f11",
+          "created_at": "2025-12-10T03:07:48.850669903Z",
+          "updated_at": "2025-12-10T03:07:48.851673963Z",
+          "submitted_at": "2025-12-10T03:07:48.850669903Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ada",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "dacfaee7-be5d-439f-9088-665ae25ed06b",
+          "client_order_id": "e4aabcb1-67a8-434a-b5a1-2c498f21b955",
+          "created_at": "2025-12-10T03:07:48.901573342Z",
+          "updated_at": "2025-12-10T03:07:48.902587732Z",
+          "submitted_at": "2025-12-10T03:07:48.901573342Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:07:50.325378",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.07.txt",
+    "prices_usd": {
+      "bitcoin": 92417,
+      "ethereum": 3309.41,
+      "litecoin": 84.87,
+      "ripple": 2.09,
+      "cardano": 0.462589,
+      "bitcoin-cash": 577.48,
+      "eos": 0.18545,
+      "solana": 137.77,
+      "polkadot": 2.25,
+      "chainlink": 14.25,
+      "uniswap": 5.66,
+      "avalanche-2": 14.61,
+      "stellar": 0.251246
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "dot",
+          "btc",
+          "eth",
+          "dot"
+        ],
+        [
+          "dot",
+          "eth",
+          "btc",
+          "dot"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "link",
+          "eth",
+          "eos",
+          "link"
+        ],
+        [
+          "link",
+          "eos",
+          "eth",
+          "link"
+        ]
+      ],
+      "num_interesting_cycles": 930
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "xrp",
+          "eth"
+        ],
+        "factor": 1.0000000000000002,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "69c74843-77b6-4e78-bd96-be22af3b7fe7",
+          "client_order_id": "41a30cda-e27d-4201-a241-36e479834830",
+          "created_at": "2025-12-10T03:07:50.206542626Z",
+          "updated_at": "2025-12-10T03:07:50.207609386Z",
+          "submitted_at": "2025-12-10T03:07:50.206542626Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "eth",
+          "xrp",
+          "btc",
+          "eth"
+        ],
+        "factor": 1.0000000000000002,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "d5d925af-3a43-4df7-bd2e-da773ea54277",
+          "client_order_id": "5741346a-a2a6-4a25-9d70-81a17e937ad0",
+          "created_at": "2025-12-10T03:07:50.262401135Z",
+          "updated_at": "2025-12-10T03:07:50.263451275Z",
+          "submitted_at": "2025-12-10T03:07:50.262401135Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      },
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ada",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": {
+          "id": "e10aedb7-0a50-46f0-bed7-3d5cbc9ff4dc",
+          "client_order_id": "57438418-6c5a-4261-ae48-ecdbf4d6b925",
+          "created_at": "2025-12-10T03:07:50.319174393Z",
+          "updated_at": "2025-12-10T03:07:50.320022733Z",
+          "submitted_at": "2025-12-10T03:07:50.319174393Z",
+          "filled_at": null,
+          "expired_at": null,
+          "canceled_at": null,
+          "failed_at": null,
+          "replaced_at": null,
+          "replaced_by": null,
+          "replaces": null,
+          "asset_id": "a1733398-6acc-4e92-af24-0d0667f78713",
+          "symbol": "ETH/USD",
+          "asset_class": "crypto",
+          "notional": "10",
+          "qty": null,
+          "filled_qty": "0",
+          "filled_avg_price": null,
+          "order_class": "",
+          "order_type": "market",
+          "type": "market",
+          "side": "buy",
+          "position_intent": "buy_to_open",
+          "time_in_force": "gtc",
+          "limit_price": null,
+          "stop_price": null,
+          "status": "pending_new",
+          "extended_hours": false,
+          "legs": null,
+          "trail_percent": null,
+          "trail_price": null,
+          "hwm": null,
+          "subtag": null,
+          "source": null,
+          "expires_at": "2026-03-09T20:00:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:21:01.656055",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.21.txt",
+    "prices_usd": {
+      "bitcoin": 92379,
+      "ethereum": 3307.83,
+      "litecoin": 84.83,
+      "ripple": 2.09,
+      "cardano": 0.463628,
+      "bitcoin-cash": 576.63,
+      "eos": 0.18546,
+      "solana": 137.84,
+      "polkadot": 2.25,
+      "chainlink": 14.26,
+      "uniswap": 5.66,
+      "avalanche-2": 14.59,
+      "stellar": 0.251988
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "eth",
+          "xrp",
+          "avax",
+          "eth"
+        ],
+        [
+          "eth",
+          "avax",
+          "xrp",
+          "eth"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "bch",
+          "btc",
+          "eth",
+          "bch"
+        ],
+        [
+          "bch",
+          "eth",
+          "btc",
+          "bch"
+        ]
+      ],
+      "num_interesting_cycles": 1010
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "ltc",
+          "btc",
+          "eth",
+          "ltc"
+        ],
+        "factor": 1.0000000000000002,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "ltc",
+          "eth",
+          "btc",
+          "ltc"
+        ],
+        "factor": 1.0000000000000002,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "xrp",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:22:02.066077",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.22.txt",
+    "prices_usd": {
+      "bitcoin": 92381,
+      "ethereum": 3308.29,
+      "litecoin": 84.77,
+      "ripple": 2.08,
+      "cardano": 0.463594,
+      "bitcoin-cash": 572.86,
+      "eos": 0.18546,
+      "solana": 137.81,
+      "polkadot": 2.24,
+      "chainlink": 14.26,
+      "uniswap": 5.66,
+      "avalanche-2": 14.59,
+      "stellar": 0.251816
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999996,
+      "min_paths": [
+        [
+          "ltc",
+          "eos",
+          "uni",
+          "ltc"
+        ],
+        [
+          "ltc",
+          "uni",
+          "eos",
+          "ltc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "btc",
+          "ltc",
+          "xlm",
+          "btc"
+        ],
+        [
+          "btc",
+          "xlm",
+          "ltc",
+          "btc"
+        ]
+      ],
+      "num_interesting_cycles": 884
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ltc",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:23:01.449128",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.23.txt",
+    "prices_usd": {
+      "bitcoin": 92381,
+      "ethereum": 3308.29,
+      "litecoin": 84.77,
+      "ripple": 2.08,
+      "cardano": 0.463594,
+      "bitcoin-cash": 572.86,
+      "eos": 0.18546,
+      "solana": 137.81,
+      "polkadot": 2.24,
+      "chainlink": 14.26,
+      "uniswap": 5.66,
+      "avalanche-2": 14.59,
+      "stellar": 0.251816
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999996,
+      "min_paths": [
+        [
+          "ltc",
+          "eos",
+          "uni",
+          "ltc"
+        ],
+        [
+          "ltc",
+          "uni",
+          "eos",
+          "ltc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "btc",
+          "ltc",
+          "xlm",
+          "btc"
+        ],
+        [
+          "btc",
+          "xlm",
+          "ltc",
+          "btc"
+        ]
+      ],
+      "num_interesting_cycles": 884
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ltc",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:24:01.848840",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.24.txt",
+    "prices_usd": {
+      "bitcoin": 92370,
+      "ethereum": 3307.93,
+      "litecoin": 84.73,
+      "ripple": 2.08,
+      "cardano": 0.463527,
+      "bitcoin-cash": 571.05,
+      "eos": 0.185859,
+      "solana": 137.77,
+      "polkadot": 2.24,
+      "chainlink": 14.25,
+      "uniswap": 5.66,
+      "avalanche-2": 14.59,
+      "stellar": 0.251787
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999996,
+      "min_paths": [
+        [
+          "xrp",
+          "ada",
+          "eos",
+          "xrp"
+        ],
+        [
+          "xrp",
+          "eos",
+          "ada",
+          "xrp"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "link",
+          "btc",
+          "uni",
+          "link"
+        ],
+        [
+          "link",
+          "uni",
+          "btc",
+          "link"
+        ]
+      ],
+      "num_interesting_cycles": 896
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        "factor": 0.9999999999999998,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ],
+        "factor": 0.9999999999999998,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "ltc",
+          "btc",
+          "eth",
+          "ltc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:25:02.283244",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.25.txt",
+    "prices_usd": {
+      "bitcoin": 92386,
+      "ethereum": 3307.81,
+      "litecoin": 84.68,
+      "ripple": 2.08,
+      "cardano": 0.463514,
+      "bitcoin-cash": 568.81,
+      "eos": 0.185557,
+      "solana": 137.74,
+      "polkadot": 2.24,
+      "chainlink": 14.24,
+      "uniswap": 5.66,
+      "avalanche-2": 14.59,
+      "stellar": 0.251739
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "uni",
+          "btc",
+          "eth",
+          "uni"
+        ],
+        [
+          "uni",
+          "eth",
+          "btc",
+          "uni"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "btc",
+          "ada",
+          "eos",
+          "btc"
+        ],
+        [
+          "btc",
+          "eos",
+          "ada",
+          "btc"
+        ]
+      ],
+      "num_interesting_cycles": 984
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ada",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "btc",
+          "ada",
+          "eth",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ada",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:26:01.632202",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.26.txt",
+    "prices_usd": {
+      "bitcoin": 92386,
+      "ethereum": 3307.81,
+      "litecoin": 84.68,
+      "ripple": 2.08,
+      "cardano": 0.463514,
+      "bitcoin-cash": 568.81,
+      "eos": 0.185557,
+      "solana": 137.74,
+      "polkadot": 2.24,
+      "chainlink": 14.24,
+      "uniswap": 5.66,
+      "avalanche-2": 14.59,
+      "stellar": 0.251739
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "uni",
+          "btc",
+          "eth",
+          "uni"
+        ],
+        [
+          "uni",
+          "eth",
+          "btc",
+          "uni"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "btc",
+          "ada",
+          "eos",
+          "btc"
+        ],
+        [
+          "btc",
+          "eos",
+          "ada",
+          "btc"
+        ]
+      ],
+      "num_interesting_cycles": 984
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ada",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "btc",
+          "ada",
+          "eth",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ada",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:27:02.059423",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.27.txt",
+    "prices_usd": {
+      "bitcoin": 92378,
+      "ethereum": 3306.48,
+      "litecoin": 84.66,
+      "ripple": 2.08,
+      "cardano": 0.463309,
+      "bitcoin-cash": 566.48,
+      "eos": 0.186281,
+      "solana": 137.7,
+      "polkadot": 2.24,
+      "chainlink": 14.23,
+      "uniswap": 5.66,
+      "avalanche-2": 14.59,
+      "stellar": 0.251451
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "eth",
+          "ada",
+          "dot",
+          "eth"
+        ],
+        [
+          "eth",
+          "dot",
+          "ada",
+          "eth"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ]
+      ],
+      "num_interesting_cycles": 828
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        "factor": 1.0000000000000004,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ],
+        "factor": 1.0000000000000004,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ltc",
+          "eth"
+        ],
+        "factor": 1.0000000000000004,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:28:01.416532",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.28.txt",
+    "prices_usd": {
+      "bitcoin": 92378,
+      "ethereum": 3306.48,
+      "litecoin": 84.66,
+      "ripple": 2.08,
+      "cardano": 0.463309,
+      "bitcoin-cash": 566.48,
+      "eos": 0.186281,
+      "solana": 137.7,
+      "polkadot": 2.24,
+      "chainlink": 14.23,
+      "uniswap": 5.66,
+      "avalanche-2": 14.59,
+      "stellar": 0.251451
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "eth",
+          "ada",
+          "dot",
+          "eth"
+        ],
+        [
+          "eth",
+          "dot",
+          "ada",
+          "eth"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ]
+      ],
+      "num_interesting_cycles": 828
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ltc",
+          "btc"
+        ],
+        "factor": 1.0000000000000004,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "btc",
+          "ltc",
+          "eth",
+          "btc"
+        ],
+        "factor": 1.0000000000000004,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ltc",
+          "eth"
+        ],
+        "factor": 1.0000000000000004,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:29:01.840047",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.29.txt",
+    "prices_usd": {
+      "bitcoin": 92415,
+      "ethereum": 3308.84,
+      "litecoin": 84.6,
+      "ripple": 2.08,
+      "cardano": 0.463328,
+      "bitcoin-cash": 562.6,
+      "eos": 0.186281,
+      "solana": 137.72,
+      "polkadot": 2.24,
+      "chainlink": 14.23,
+      "uniswap": 5.66,
+      "avalanche-2": 14.59,
+      "stellar": 0.251401
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "eos",
+          "btc",
+          "xrp",
+          "eos"
+        ],
+        [
+          "eos",
+          "xrp",
+          "btc",
+          "eos"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "dot",
+          "btc",
+          "ltc",
+          "dot"
+        ],
+        [
+          "dot",
+          "ltc",
+          "btc",
+          "dot"
+        ]
+      ],
+      "num_interesting_cycles": 822
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "xrp",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "btc",
+          "xrp",
+          "eth",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "bch",
+          "btc"
+        ],
+        "factor": 1.0000000000000002,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:30:02.352897",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.30.txt",
+    "prices_usd": {
+      "bitcoin": 92411,
+      "ethereum": 3308.84,
+      "litecoin": 84.58,
+      "ripple": 2.08,
+      "cardano": 0.463401,
+      "bitcoin-cash": 561.95,
+      "eos": 0.18634,
+      "solana": 137.74,
+      "polkadot": 2.24,
+      "chainlink": 14.23,
+      "uniswap": 5.66,
+      "avalanche-2": 14.6,
+      "stellar": 0.25141
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "eos",
+          "btc",
+          "ada",
+          "eos"
+        ],
+        [
+          "eos",
+          "ada",
+          "btc",
+          "eos"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "btc",
+          "eth",
+          "sol",
+          "btc"
+        ],
+        [
+          "btc",
+          "sol",
+          "eth",
+          "btc"
+        ]
+      ],
+      "num_interesting_cycles": 928
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ltc",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "eth",
+          "ltc",
+          "btc",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "ltc",
+          "btc",
+          "eth",
+          "ltc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:31:01.694959",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.31.txt",
+    "prices_usd": {
+      "bitcoin": 92411,
+      "ethereum": 3308.84,
+      "litecoin": 84.58,
+      "ripple": 2.08,
+      "cardano": 0.463401,
+      "bitcoin-cash": 561.95,
+      "eos": 0.18634,
+      "solana": 137.74,
+      "polkadot": 2.24,
+      "chainlink": 14.23,
+      "uniswap": 5.66,
+      "avalanche-2": 14.6,
+      "stellar": 0.25141
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "eos",
+          "btc",
+          "ada",
+          "eos"
+        ],
+        [
+          "eos",
+          "ada",
+          "btc",
+          "eos"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "btc",
+          "eth",
+          "sol",
+          "btc"
+        ],
+        [
+          "btc",
+          "sol",
+          "eth",
+          "btc"
+        ]
+      ],
+      "num_interesting_cycles": 928
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ltc",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "eth",
+          "ltc",
+          "btc",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "ltc",
+          "btc",
+          "eth",
+          "ltc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:32:02.138013",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.32.txt",
+    "prices_usd": {
+      "bitcoin": 92399,
+      "ethereum": 3309.52,
+      "litecoin": 84.55,
+      "ripple": 2.08,
+      "cardano": 0.463289,
+      "bitcoin-cash": 560.94,
+      "eos": 0.18634,
+      "solana": 137.76,
+      "polkadot": 2.24,
+      "chainlink": 14.23,
+      "uniswap": 5.65,
+      "avalanche-2": 14.6,
+      "stellar": 0.251369
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "btc",
+          "eth",
+          "link",
+          "btc"
+        ],
+        [
+          "btc",
+          "link",
+          "eth",
+          "btc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "bch",
+          "btc",
+          "eos",
+          "bch"
+        ],
+        [
+          "bch",
+          "eos",
+          "btc",
+          "bch"
+        ]
+      ],
+      "num_interesting_cycles": 962
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "ltc",
+          "btc",
+          "eth",
+          "ltc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "ltc",
+          "eth",
+          "btc",
+          "ltc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "xrp",
+          "btc"
+        ],
+        "factor": 0.9999999999999998,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:33:01.481776",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.33.txt",
+    "prices_usd": {
+      "bitcoin": 92399,
+      "ethereum": 3309.52,
+      "litecoin": 84.55,
+      "ripple": 2.08,
+      "cardano": 0.463289,
+      "bitcoin-cash": 560.94,
+      "eos": 0.18634,
+      "solana": 137.76,
+      "polkadot": 2.24,
+      "chainlink": 14.23,
+      "uniswap": 5.65,
+      "avalanche-2": 14.6,
+      "stellar": 0.251369
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "btc",
+          "eth",
+          "link",
+          "btc"
+        ],
+        [
+          "btc",
+          "link",
+          "eth",
+          "btc"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "bch",
+          "btc",
+          "eos",
+          "bch"
+        ],
+        [
+          "bch",
+          "eos",
+          "btc",
+          "bch"
+        ]
+      ],
+      "num_interesting_cycles": 962
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "ltc",
+          "btc",
+          "eth",
+          "ltc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "ltc",
+          "eth",
+          "btc",
+          "ltc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "xrp",
+          "btc"
+        ],
+        "factor": 0.9999999999999998,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:34:01.897721",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.34.txt",
+    "prices_usd": {
+      "bitcoin": 92412,
+      "ethereum": 3308.78,
+      "litecoin": 84.54,
+      "ripple": 2.08,
+      "cardano": 0.463199,
+      "bitcoin-cash": 560.64,
+      "eos": 0.186339,
+      "solana": 137.77,
+      "polkadot": 2.24,
+      "chainlink": 14.23,
+      "uniswap": 5.65,
+      "avalanche-2": 14.6,
+      "stellar": 0.251368
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "dot",
+          "btc",
+          "eth",
+          "dot"
+        ],
+        [
+          "dot",
+          "eth",
+          "btc",
+          "dot"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "uni",
+          "btc",
+          "ada",
+          "uni"
+        ],
+        [
+          "uni",
+          "ada",
+          "btc",
+          "uni"
+        ]
+      ],
+      "num_interesting_cycles": 818
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "ltc",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "eth",
+          "ltc",
+          "btc",
+          "eth"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "ltc",
+          "btc",
+          "eth",
+          "ltc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:35:02.397183",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.35.txt",
+    "prices_usd": {
+      "bitcoin": 92421,
+      "ethereum": 3308.0,
+      "litecoin": 84.54,
+      "ripple": 2.08,
+      "cardano": 0.463213,
+      "bitcoin-cash": 560.76,
+      "eos": 0.186161,
+      "solana": 137.76,
+      "polkadot": 2.24,
+      "chainlink": 14.23,
+      "uniswap": 5.65,
+      "avalanche-2": 14.6,
+      "stellar": 0.251416
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "sol",
+          "btc",
+          "ada",
+          "sol"
+        ],
+        [
+          "sol",
+          "ada",
+          "btc",
+          "sol"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "eos",
+          "btc",
+          "bch",
+          "eos"
+        ],
+        [
+          "eos",
+          "bch",
+          "btc",
+          "eos"
+        ]
+      ],
+      "num_interesting_cycles": 920
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "xrp",
+          "btc"
+        ],
+        "factor": 1.0000000000000002,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "btc",
+          "xrp",
+          "eth",
+          "btc"
+        ],
+        "factor": 1.0000000000000002,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ada",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:36:01.757737",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.36.txt",
+    "prices_usd": {
+      "bitcoin": 92421,
+      "ethereum": 3308.0,
+      "litecoin": 84.54,
+      "ripple": 2.08,
+      "cardano": 0.463213,
+      "bitcoin-cash": 560.76,
+      "eos": 0.186161,
+      "solana": 137.76,
+      "polkadot": 2.24,
+      "chainlink": 14.23,
+      "uniswap": 5.65,
+      "avalanche-2": 14.6,
+      "stellar": 0.251416
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "sol",
+          "btc",
+          "ada",
+          "sol"
+        ],
+        [
+          "sol",
+          "ada",
+          "btc",
+          "sol"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "eos",
+          "btc",
+          "bch",
+          "eos"
+        ],
+        [
+          "eos",
+          "bch",
+          "btc",
+          "eos"
+        ]
+      ],
+      "num_interesting_cycles": 920
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "xrp",
+          "btc"
+        ],
+        "factor": 1.0000000000000002,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "btc",
+          "xrp",
+          "eth",
+          "btc"
+        ],
+        "factor": 1.0000000000000002,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "btc",
+          "eth",
+          "ada",
+          "btc"
+        ],
+        "factor": 0.9999999999999999,
+        "alpaca_symbol": "BTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:37:02.179718",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.37.txt",
+    "prices_usd": {
+      "bitcoin": 92408,
+      "ethereum": 3307.9,
+      "litecoin": 84.55,
+      "ripple": 2.08,
+      "cardano": 0.463286,
+      "bitcoin-cash": 561.09,
+      "eos": 0.185435,
+      "solana": 137.77,
+      "polkadot": 2.24,
+      "chainlink": 14.23,
+      "uniswap": 5.66,
+      "avalanche-2": 14.6,
+      "stellar": 0.251445
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "ada",
+          "btc",
+          "eth",
+          "ada"
+        ],
+        [
+          "ada",
+          "eth",
+          "btc",
+          "ada"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "link",
+          "eth",
+          "bch",
+          "link"
+        ],
+        [
+          "link",
+          "bch",
+          "eth",
+          "link"
+        ]
+      ],
+      "num_interesting_cycles": 976
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "ltc",
+          "btc",
+          "eth",
+          "ltc"
+        ],
+        "factor": 0.9999999999999998,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "ltc",
+          "eth",
+          "btc",
+          "ltc"
+        ],
+        "factor": 0.9999999999999998,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "xrp",
+          "eth"
+        ],
+        "factor": 1.0000000000000002,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      }
+    ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:38:01.532391",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.38.txt",
+    "prices_usd": {
+      "bitcoin": 92408,
+      "ethereum": 3307.9,
+      "litecoin": 84.55,
+      "ripple": 2.08,
+      "cardano": 0.463286,
+      "bitcoin-cash": 561.09,
+      "eos": 0.185435,
+      "solana": 137.77,
+      "polkadot": 2.24,
+      "chainlink": 14.23,
+      "uniswap": 5.66,
+      "avalanche-2": 14.6,
+      "stellar": 0.251445
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "ada",
+          "btc",
+          "eth",
+          "ada"
+        ],
+        [
+          "ada",
+          "eth",
+          "btc",
+          "ada"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "link",
+          "eth",
+          "bch",
+          "link"
+        ],
+        [
+          "link",
+          "bch",
+          "eth",
+          "link"
+        ]
+      ],
+      "num_interesting_cycles": 976
+    },
+    "alpaca_orders": [
+      {
+        "cycle": [
+          "ltc",
+          "btc",
+          "eth",
+          "ltc"
+        ],
+        "factor": 0.9999999999999998,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "ltc",
+          "eth",
+          "btc",
+          "ltc"
+        ],
+        "factor": 0.9999999999999998,
+        "alpaca_symbol": "LTC/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      },
+      {
+        "cycle": [
+          "eth",
+          "btc",
+          "xrp",
+          "eth"
+        ],
+        "factor": 1.0000000000000002,
+        "alpaca_symbol": "ETH/USD",
+        "notional_usd": 10.0,
+        "order_response": null
+      }
+    ]
   }
 ]

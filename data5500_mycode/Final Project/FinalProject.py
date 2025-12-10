@@ -386,8 +386,19 @@ def analyze_arbitrage(g):
                         max_factor = factor
                         max_paths = (cycle, reverse_path)
 
+                    ### UNCOMMENT THIS IF YOU WANT REAL LIFE USAGE. THE ONE BELOW ACTUALLY PRODUCES INTERESTING CYCLES. 
                     # Store cycles that are meaningfully away from 1
-                    if abs(factor - 1.0) > 0.01:
+                    # if abs(factor - 1.0) > 0.01:
+                    #     interesting_cycles.append({
+                    #         "forward_path": cycle,
+                    #         "reverse_path": reverse_path,
+                    #         "forward_weight": forward_weight,
+                    #         "reverse_weight": reverse_weight,
+                    #         "factor": factor,
+                    #     })
+
+                                        # TEMP: for testing, treat ANY tiny deviation from 1.0 as interesting
+                    if factor != 1.0:
                         interesting_cycles.append({
                             "forward_path": cycle,
                             "reverse_path": reverse_path,
@@ -405,6 +416,33 @@ def analyze_arbitrage(g):
     }
 
     return summary
+
+
+# def test_alpaca_manual_trade():
+#     """
+#     TEMP: Manually test Alpaca paper trading by faking one 'interesting cycle'
+#     and sending a small notional order.
+#     """
+#     fake_cycle = [{
+#         "forward_path": ["btc", "eth", "btc"],  # arbitrary 3-coin cycle
+#         "reverse_path": ["btc", "eth", "btc"],
+#         "forward_weight": 1.02,   # pretend we saw 2% gain
+#         "reverse_weight": 0.98,   # pretend reverse direction
+#         "factor": 1.02 * 0.98,    # just something != 1
+#     }]
+
+#     print("=== TEST: placing a manual Alpaca paper trade ===")
+#     orders = place_alpaca_trades_from_cycles(
+#         fake_cycle,
+#         notional_per_trade=10.0,  # $10 test trade
+#         max_trades=1,
+#     )
+#     print("Test Alpaca orders result:")
+#     print(json.dumps(orders, indent=2))    
+
+# def main():
+#     # TEMP: just test Alpaca integration with a fake cycle
+#     test_alpaca_manual_trade()
 
 
 def main():

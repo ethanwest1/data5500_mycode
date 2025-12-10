@@ -486,5 +486,4 @@ def main():
     all_results.append(run_entry)
     save_results(all_results)
 
-if __name__ == "__main__":
-    main()
+main()

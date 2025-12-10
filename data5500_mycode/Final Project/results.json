@@ -5883,5 +5883,58 @@
         "order_response": null
       }
     ]
+  },
+  {
+    "timestamp_utc": "2025-12-10T03:42:55.171801",
+    "pair_file": "/home/ubuntu/data5500_mycode/Final Project/data/currency_pair_2025.12.10:03.42.txt",
+    "prices_usd": {
+      "bitcoin": 92465,
+      "ethereum": 3312.4,
+      "litecoin": 84.63,
+      "ripple": 2.08,
+      "cardano": 0.464064,
+      "bitcoin-cash": 561.76,
+      "eos": 0.185434,
+      "solana": 137.91,
+      "polkadot": 2.24,
+      "chainlink": 14.24,
+      "uniswap": 5.66,
+      "avalanche-2": 14.61,
+      "stellar": 0.251665
+    },
+    "arbitrage_summary": {
+      "min_factor": 0.9999999999999997,
+      "min_paths": [
+        [
+          "xrp",
+          "btc",
+          "eos",
+          "xrp"
+        ],
+        [
+          "xrp",
+          "eos",
+          "btc",
+          "xrp"
+        ]
+      ],
+      "max_factor": 1.0000000000000004,
+      "max_paths": [
+        [
+          "btc",
+          "ltc",
+          "uni",
+          "btc"
+        ],
+        [
+          "btc",
+          "uni",
+          "ltc",
+          "btc"
+        ]
+      ],
+      "num_interesting_cycles": 0
+    },
+    "alpaca_orders": []
   }
 ]

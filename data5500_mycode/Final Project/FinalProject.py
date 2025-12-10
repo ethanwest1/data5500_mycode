@@ -388,17 +388,7 @@ def analyze_arbitrage(g):
 
                     ### UNCOMMENT THIS IF YOU WANT REAL LIFE USAGE. THE ONE BELOW ACTUALLY PRODUCES INTERESTING CYCLES. 
                     # Store cycles that are meaningfully away from 1
-                    # if abs(factor - 1.0) > 0.01:
-                    #     interesting_cycles.append({
-                    #         "forward_path": cycle,
-                    #         "reverse_path": reverse_path,
-                    #         "forward_weight": forward_weight,
-                    #         "reverse_weight": reverse_weight,
-                    #         "factor": factor,
-                    #     })
-
-                                        # TEMP: for testing, treat ANY tiny deviation from 1.0 as interesting
-                    if factor != 1.0:
+                    if abs(factor - 1.0) > 0.01:
                         interesting_cycles.append({
                             "forward_path": cycle,
                             "reverse_path": reverse_path,
@@ -406,6 +396,16 @@ def analyze_arbitrage(g):
                             "reverse_weight": reverse_weight,
                             "factor": factor,
                         })
+
+                    #                     # TEMP: for testing, treat ANY tiny deviation from 1.0 as interesting
+                    # if factor != 1.0:
+                    #     interesting_cycles.append({
+                    #         "forward_path": cycle,
+                    #         "reverse_path": reverse_path,
+                    #         "forward_weight": forward_weight,
+                    #         "reverse_weight": reverse_weight,
+                    #         "factor": factor,
+                    #     })
 
     summary = {
         "min_factor": min_factor,
